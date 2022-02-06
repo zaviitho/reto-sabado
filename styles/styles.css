@@ -1,0 +1,199 @@
+*{
+    background-color: white;
+    box-sizing: border-box;
+}
+nav{
+    display: flex;
+    justify-content:space-between;
+    
+}
+
+nav>img{
+    width: 30%;
+    margin: 20px;
+}
+nav h4{
+    color: rgb(252, 1, 177);
+    border: 2px solid rgb(252, 1, 177);
+    border-radius: 20px;
+    padding:2px;
+    font-size:14px;
+    position: relative;
+    right: -15%;
+}
+
+section h1{
+    margin: auto;
+    text-align: center;
+}
+
+section h3{
+    margin: auto;
+    text-align: center;
+    margin: 20px;
+    font-weight: 100;
+    font-size:14px
+}
+section .link-url a{
+    padding: 20px solid ;
+    background-color:rgb(252, 1, 177);
+    border-radius: 20px;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    padding:10px;
+}
+
+section img{
+    object-fit: cover;
+    width: 80%;
+    display:block;
+    margin:auto;
+}
+
+.view-communities img{
+    display: block;
+    position: relative;
+    right:10%;
+    width: 10%;
+    font-weight: 100;
+}
+
+.view-messages img{
+    display: block;
+    position: relative;
+    right:10%;
+    width: 10%;
+    font-weight: 100;
+
+}
+.grow-together{
+    background-color:rgb(246,251,255,255);
+}
+.grow-together img{
+    object-fit: cover;
+}
+.grow-together h1{
+    background-color:rgb(246,251,255,255);
+}
+
+.grow-together h3{
+    background-color:rgb(246,251,255,255);
+}
+.your-users{
+    background-color:rgb(246,251,255,255);
+
+}
+
+.your-users h1{
+    background-color:rgb(246,251,255,255);
+}
+.your-users h3{
+    background-color:rgb(246,251,255,255);
+}
+
+.get-started {
+    text-align: center;
+}
+.get-started h4 a{
+    padding: 20px solid ;
+    background-color:rgb(252, 1, 177);
+    border-radius: 20px;
+    color: white;
+    text-decoration: none;
+    padding:10px;
+}
+
+footer {
+    background-color:rgba(0,37,46,255);
+}
+
+
+.footer{
+    display:block;
+    align-items: center;
+    text-align:center;
+    justify-content: center;
+    background-color:rgba(0,37,46,255);
+    position:relative;
+}
+.footer input{
+    position: relative;
+    height: 40px;
+    width: 300px;
+    border-radius:5px;
+}
+.footer h2{
+    background-color:rgba(0,37,46,255);
+    color: white;
+}
+.footer h4{
+    background-color:rgba(0,37,46,255);
+    color: white;
+}
+.footer h3{
+    background-color:rgba(0,37,46,255);
+    color: white;
+}
+.footer h3 a{
+    background-color:rgb(252, 1, 177);
+    text-decoration: none;
+    border-radius:5px;
+    padding: 10px;
+    position: relative;
+    left: 27%;
+    color: white;
+
+}
+
+.f{
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+    background-color:rgba(0,37,46,255);
+}
+.f img{
+    margin:5px;
+    filter: invert(90%) sepia(11%) saturate(9952%) hue-rotate(156deg) brightness(95%) contrast(94%);
+}
+.f h1{
+    background-color:rgba(0,37,46,255);
+    color: white;
+}
+footer p{
+    background-color:rgba(0,37,46,255);
+    color: white;
+}
+
+.contact-phone{
+    display: flex;
+    flex-direction: row;
+    background-color:rgba(0,37,46,255);
+}
+.contact-phone img{
+    background-color:rgba(0,37,46,255);
+    margin:20px;
+}
+.contact-phone h4{
+    background-color:rgba(0,37,46,255);
+    color: white;
+
+}
+.contact-email{
+    display: flex;
+    flex-direction: row;
+    background-color:rgba(0,37,46,255);
+}
+.contact-email img{
+    background-color:rgba(0,37,46,255);
+    margin:20px;
+}
+
+.contact-email h4{
+    background-color:rgba(0,37,46,255);
+    color: white;
+
+}
+
+
+
